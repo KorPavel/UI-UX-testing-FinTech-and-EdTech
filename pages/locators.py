@@ -1,0 +1,52 @@
+from selenium.webdriver.common.by import By
+
+
+class MainPageLocators:
+    NAME_TOUR = (By.CLASS_NAME, 't001__title')
+    TOUR_INFO = (By.CLASS_NAME, 't503__title')
+    BUY_BUTTON = (By.CLASS_NAME, 'js-store-prod-buy-btn-txt')
+    BRON_TOUR = (By.CLASS_NAME, 't698__title')
+    EMAIL_AREA_1 = (By.CSS_SELECTOR, '#form544433794 [name="Email"]')
+    USER_NAME_AREA_1 = (By.CSS_SELECTOR, '#form544433794 [name="Name"]')
+    TOUR_NAME_AREA_1 = (By.CSS_SELECTOR, '#form544433794 [name="Textarea"]')
+    SEND_BUTTON_1 = (By.CSS_SELECTOR, '#form544433794 .t-submit')
+    ERROR_BOX_1 = (By.CSS_SELECTOR, '#form544433794 .t-form__errorbox-middle')
+    SUCCESSBOX_1 = (By.CSS_SELECTOR, '#form544433794 .js-successbox')
+    NO_ROBOT = (By.CLASS_NAME, 'recaptcha-checkbox-border')
+    SELF_MENU = (By.CSS_SELECTOR, '.t228__centerside .t-menu__link-item')
+    LOGO_MENU = (By.CLASS_NAME, 't228__imgwrapper')
+    BUTTON_MENU = (By.CSS_SELECTOR, '.t228__right_buttons_but .t-btn')
+    NEW_PRICE = (By.CLASS_NAME, 'notranslate')
+    FIRST_DAY_PHOTO = (By.CSS_SELECTOR, '#carousel_544433784 li div div meta')
+    SLDS_RIGHT = (By.CLASS_NAME, 't-slds__arrow-right')
+    SLDS_LEFT = (By.CLASS_NAME, 't-slds__arrow-left')  # [data-slide-direction="left"] button
+    POINTS1 = (By.CSS_SELECTOR, '#rec544433784 .t-slds__bullet_wrapper li')
+    SECOND_DAY_PHOTO = (By.CSS_SELECTOR, '#carousel_544433786 li div div meta')
+    POINTS2 = (By.CSS_SELECTOR, '#rec544433786 .t-slds__bullet_wrapper li')
+    VK_LINK = (By.CSS_SELECTOR, '.ya-share2__item.ya-share2__item_service_vkontakte a')
+    TWITTER_LINK = (By.CSS_SELECTOR, '.ya-share2__item.ya-share2__item_service_twitter a')
+    SOCIALLINKS = (By.CSS_SELECTOR, '.t-sociallinks__item a')
+    BLOCK_PHOTOS = (By.ID, 'rec544433782')
+    PHOTOS_A = (By.CSS_SELECTOR, '.t552 .t-container_100 div:nth-child($) div')
+    CLOSE_PHOTO = (By.CLASS_NAME, 't-zoomer__close')
+    CURR_PHOTO = (By.CSS_SELECTOR, '.t-carousel__zoomer__inner .active img')
+    PREV = (By.CSS_SELECTOR, '.t-carousel__zoomed .t-carousel__zoomer__arrow__wrapper_left')
+    NEXT = (By.CSS_SELECTOR, '.t-carousel__zoomed .t-carousel__zoomer__arrow__wrapper_right')
+
+
+class BasketPageLocators:
+    YOUR_ORDER = (By.CLASS_NAME, 't706__cartwin-heading')
+    TOUR_MINUS = (By.CLASS_NAME, 't706__product-minus')
+    TOUR_PLUS = (By.CLASS_NAME, 't706__product-plus')
+    TOUR_AMOUNT = (By.CLASS_NAME, 't706__product-quantity')
+    TOTAL_PRICE = (By.CSS_SELECTOR, '.t706__product .t706__cartwin-prodamount-price')
+    TOUR_DEL = (By.CLASS_NAME, 't706__product-del')
+    TOUR_RETURN = (By.CLASS_NAME, 't706__product-deleted__timer__return')
+    NAME_AREA = (By.CSS_SELECTOR, '.t706__orderform  [name="Name"]')
+    EMAIL_AREA = (By.CSS_SELECTOR, '.t706__orderform  [name="Email"]')
+    PHONE_AREA = (By.NAME, 'Phone number')
+    CHECKOUT = (By.CSS_SELECTOR, '.t706__orderform .t-submit')
+    BASKET_CLOSE = (By.CLASS_NAME, 't706__close-button')
+    ERROR_BOX_2 = (By.CSS_SELECTOR, '#form544452657 .t-form__errorbox-middle')
+    SUCCESSBOX_2 = (By.CSS_SELECTOR, '#form544452657 .js-successbox')
+
